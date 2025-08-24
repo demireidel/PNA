@@ -1,0 +1,6 @@
+:root { --bg: #0b0f13; --fg: #eaeff6; }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); }
+a { text-decoration: underline; }
+.container { max-width: 960px; margin: 0 auto; padding: 2rem; }
+.card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; }
